@@ -6,6 +6,13 @@ app_email = "akshay@gmail.com"
 app_license = "mit"
 # required_apps = []
 
+fixtures = [
+    {
+        "doctype": "Custom Field",
+        "filters": [["module", "=", "custom_test"]],
+    }]
+
+
 # Includes in <head>
 # ------------------
 
